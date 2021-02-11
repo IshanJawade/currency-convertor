@@ -11,3 +11,86 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header{
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  padding: 15px;
+  color: chartreuse;
+  
+}
+
+.main-container{
+  padding: 50px;
+  text-align: center;
+  background-color: black;
+}
+
+.box{
+  min-height: 100vh;
+  text-align: center;
+  background-color: black;
+}
+
+.title{
+  color: #FFF;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.colunm-one{
+
+  display: block;
+  width: 83%;
+  padding: 40px;
+
+  background-image: linear-gradient(to bottom, rgba(39, 39, 39, 0.808),  rgb(0, 0, 0));
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+
+  text-align: center;
+  transition: 0.4s ease
+
+}
+
+.colunm-two{
+  display: block;
+  width: 83%;
+  padding: 40px;
+
+  background-image: linear-gradient(to bottom, rgba(39, 39, 39, 0.808),  rgb(0, 0, 0));
+  border: none;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+
+  text-align: center;
+  transition: 0.4s ease
+}
+
+.drop-down1{
+  padding-top: 15px;
+}
+
+.drop-down2{
+  padding-top: 15px;
+}
+
+ .input1{
+  padding: 15px;
+}
+
+.input2{
+  padding: 15px;
+}
+
+.footer{
+  text-align: center;
+  color: chartreuse;
+  padding-top: -25px;
+  position: fixed;
+  margin-top: 1rem;
+  padding: 5rem;
+  bottom: 0;
+  width: 100%;
+}
